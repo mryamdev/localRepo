@@ -41,6 +41,7 @@ elif(age==20):
     print("not eligible")
 else:
     print("invalid value")
+    # index method in phython
     str="maryam"
 print(str[1:5])
 # missing compiler automatically understand
