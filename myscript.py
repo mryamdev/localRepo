@@ -47,6 +47,10 @@ print(str[1:5])
 print(str[:5])
 # negative index
 print(str[-5:-1])
+# tuble method
+tup=(45,87,95,67,34,90)
+print(type("tup"))
+print(tup)
     
 
 
