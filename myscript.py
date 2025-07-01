@@ -41,3 +41,13 @@ elif(age==20):
     print("not eligible")
 else:
     print("invalid value")
+    str="maryam"
+print(str[1:5])
+# missing compiler automatically understand
+print(str[:5])
+# negative index
+print(str[-5:-1])
+    
+
+
+
