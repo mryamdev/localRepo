@@ -4,3 +4,4 @@ print(type("tup"))
 print(tup)
 name= maryam
 print("maryam")
+print(name)
