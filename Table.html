@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables in html</title>
+    <style>
+        body{
+margin-bottom: 500px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 100%;
+                box-align:center ;
+
+        }
+        #pink,th{
+            border: 5px solid rebeccapurple;
+            border-radius: 0 0 10px black;
+            padding: 15px
+
+            }
+            
+        }
+    </style>
+    
+</head>
+<body>
+
+    <h2>1. Simple Table</h2>
+    <table border="4">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Roll No</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>MARYAM</td>
+            <td>BSCS</td>
+            <td>1827</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>LIABA</td>
+            <td>MSC</td>
+            <td>1823</td>
+        </tr>
+    </table>
+
+    
+    <h2>2. Table with Colspan</h2>
+    <table border="4">
+        <tr>
+            <th colspan="4">Student Information (With Colspan)</th>
+        </tr>
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Roll No</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>NOORE</td>
+            <td>playgroup</td>
+            <td>1835</td>
+        </tr>
+    </table>
+
+    <h2>3. Table with Rowspan</h2>
+    <table border="4">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td rowspan="2">Fatima</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+        </tr>
+    </table>
+
+</body>
+</html>
